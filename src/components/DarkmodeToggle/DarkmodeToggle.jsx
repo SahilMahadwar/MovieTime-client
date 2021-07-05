@@ -8,15 +8,9 @@ const DarkmodeToggle = () => {
   return (
     <Box>
       {colorMode === "light" ? (
-        <Button
-          onClick={toggleColorMode} >
-              Dark
-          </Button>
+        <Button onClick={toggleColorMode}>Dark</Button>
       ) : (
-        <Button
-        onClick={toggleColorMode} >
-            Light
-        </Button>
+        <Button onClick={toggleColorMode}>Light</Button>
       )}
     </Box>
   );
